@@ -1,0 +1,83 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: #002e77; /*#092756*/
+    background-size: cover;
+ }
+
+.main-container{
+    display: block;
+    margin-top: 5%;
+    margin-left: 8%;
+    width: 80%;
+    border: 3px solid #fff;
+}
+
+.event-head{
+    padding-top: 5px;
+}
+.event-head h1{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border: 3px solid rgb(158, 154, 149);
+    width: 80%;
+    margin-left: 10%;
+    margin-left: 10%;
+    background: rgb(5, 12, 0);
+    color:rgb(65, 125, 255);
+    text-align:center;
+}
+.login-content{
+    text-align: center;
+}
+
+.login-content h1{
+    color: #d2f4ff;
+}
+
+
+label {
+    text-align: left;
+    margin-left: 270px;
+    display: block;
+}
+input[type=text],
+input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.button-set{
+    display: flex;
+}
+
+button {
+    background-color: #4a77d4;
+    color: black;
+    padding: 20px 20px;
+    margin: 15px auto;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+span a{
+	color:white;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+span a:hover{
+	color:yellow;
+}
